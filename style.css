@@ -1,0 +1,452 @@
+ @font-face {
+  font-family: 'IronMaiden';
+  src: url('/pagina/font/maiden.ttf') format('truetype');
+  font-weight: bolder;  
+}
+
+h1 {
+  font-family: sans-serif;
+}
+html{
+    background-color: rgba(0,0,0,0);
+    font-size: 18px;
+    scroll-behavior: smooth;
+    }
+header{
+    display:flex;
+    gap: 20px;
+    align-items: center;
+    background-color: rgba(0,0,0,0.3);
+            
+    }
+.logo_nav{
+    border: solid;  
+    height: 35px;
+   }
+       
+.nav{
+   
+    display: inline;
+    background-color: rgba(0,0,0,0.3);
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    }
+ 
+.nav_link{
+    padding: 20px;
+    border: groove;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    }
+.nav_link:link{
+    color: green;
+}
+.nav_link:visited{
+    color: white;
+}    
+ 
+.nav_link:hover{
+    color: red;
+            
+    }
+.nav_link:active{
+    color:purple;
+            
+    }
+
+h1{
+           
+    text-align: center;
+    background-color: rgba(0,0,0,0.3);
+    display: block;
+    font-size: 2em;
+    font: bold;
+    color: black; 
+    margin-top: 0;
+          
+    }
+h2{
+    text-align: center;
+    }
+.message{
+    margin-block-end: 0px;
+    }
+strong{
+    color: red;
+    }
+a {
+            
+    color: black;
+    text-decoration: underline;
+    }
+        
+.frontimage{
+    height: auto; 
+    display: flex;
+    border: groove 25px ;
+    border-radius: 25px;
+    border-image: auto;
+    margin-right: -10px;
+    border-left: solid black 25px;
+    }
+.inline{
+    display: inline-flex;
+    margin-top: 5px;
+    }
+li{
+    font-size: 25px;
+    line-height: 33px;
+    }
+ul{
+    margin-top: 100px;
+    }
+.anuncio{
+    display: none;
+}    
+        
+.container1{
+    background-color: black;
+}
+ .container1{
+     text-align: center;
+     align-items: center;
+     color: aliceblue;
+     background-color: black; 
+}
+
+.container2, p{
+    align-items: center;
+    text-align:  center;
+    font-size: 20px;
+    margin: auto;
+}
+.catalogo{
+    margin-left: 350px;
+}
+.catalogo img{
+    border: solid red;
+}
+.catalogo p{
+    font-size:larger;
+}
+.conteiner3{
+    display:inline-block;
+}
+.office img {
+    width: 480px;
+    height: 340px;
+}
+.conteiner4{
+    display:inline-block;
+}
+.seguranca{
+    position: absolute;
+    display: inline-block;
+    top: 213px;
+}
+.seguranca img{
+    width: 480px;
+    height: 340px;
+}
+.dev{
+    position: absolute;
+    top: 590px;
+}
+.manutencao img{
+   width: 480px;
+    height: 340px; 
+}
+.dev img{
+    width: 480px;
+    height: 340px;
+}
+.rede img{
+    width: 480px;
+    height: 340px;
+}
+.imgem_descricao{
+    display:inline-flex;
+    border: solid;
+    border-radius: 15px;
+    
+}
+.imgem_descricao h3{
+    
+    
+    position: absolute;
+    right: 1000px;
+    line-height: 15px;
+}
+.imgem_descricao p{
+    text-align: justify;   
+    position: absolute;
+    bottom: 445px;
+    left: 455px;
+}
+.contrato{
+    
+    position: absolute;
+    
+    bottom: -55px;
+    width: 150px;
+    padding: 12px 5px 10px 12px;
+    background-color: blanchedalmond;
+    border: solid;
+    border-top-right-radius: 15px;
+}
+#contrato2{
+    display: none;
+}
+#ifs{
+    display: none;
+}
+.zap{
+    display: block;
+}
+.form{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 40%;
+   
+}
+.form form{
+    margin-left: 5%;
+    border-radius: 15px;
+    border: dashed red;
+    width: 225px;
+    padding: 5%;
+}
+input[type="button"]{
+    
+    width: 100%;
+    background-color:  green;
+    width: 208px;
+}
+input[type="button"]:hover{
+    background-color: yellow;
+}
+input::placeholder{
+    color: purple;
+    font-weight: bolder;
+}
+input:focus{
+    background-color: yellow;
+}
+.section{
+    height: 500px;
+    background-color: white;
+    border: 5px solid black;
+    padding-left: 5px;
+}
+.section:target{
+    background-color: rgba(0,0,0,0.3);
+    color: aliceblue;
+}
+#section-4 {
+    height: 600px;
+}
+
+#section-4 ul{
+    position: relative;
+    display: block;
+    left: 200px;
+    bottom: 100px;
+    color: blue;
+}
+
+.footer{
+            margin-top: 95px;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  background-color: dimgray;
+  height: 100px;
+}
+.footer img:first-of-type{
+    position: absolute;
+    width: 60px;
+    margin-top: 35px;
+    margin-left: 750px;
+}
+.footer img:nth-child(2){
+    position: absolute;
+    width: 58px;
+    margin-top: 35px;
+    margin-left: 640px;
+}
+.footer img{
+    position: absolute;
+    width: 50px;
+    margin-top: 35px;
+    margin-left: 700px;
+}
+
+@media (max-width:400px) {
+    .frontimage{
+        display: none;
+    }
+ 
+.imgem_descricao,img{
+    display: none;
+}
+.imgem_descricao p{
+    display: block;
+    height: 200px;
+    
+
+}
+#contrato2{
+display: block;
+padding: 20px 5px 5px 5px;
+padding-left: 35px;
+background-color: blanchedalmond;
+border: solid;
+align-content: center;
+width: 50%;
+border-top-right-radius: 15px;
+margin-top: 5px;
+
+}
+#ifs{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: dashed purple;
+}
+.zap{
+  position: relative;  
+  display: block;
+  max-width: 50%;
+  height: auto;  
+  left: 30%;
+}
+.form{
+    display: block;
+    margin-left: -3%;
+}
+.form h4{
+   
+    color: brown;
+}
+
+.form form{
+    left: 30%;
+    border-radius: 15px;
+    border: solid;
+    padding: 10%;
+    background-color: #D3D3D3;
+    margin: 5px;
+}
+input{
+    width: 80%;
+}
+input[type="button"]{
+    width: 83%;
+    background-color:  green;
+}
+input::placeholder{
+    color: purple;
+    font-weight: bolder;
+}
+input:focus{
+    background-color: yellow;
+}
+.catalogo, img{
+    display: none;
+}
+.section{
+    height: 100%;
+}
+.section a{
+    color: green;
+}
+#section-1{
+background-image: url(./img/ofice.jpg);
+
+
+}
+#section-2{
+background-image: url(./img/1549384340_f2manutencao.png);
+color: orange;
+font-size: large;
+font-weight:bolder;
+
+
+}
+#section-3{
+background-image: url(./img/Redes.png);
+color: black;
+font-size: large;
+font-weight: bolder;
+
+
+}
+#section-4{
+background-image: url(./img/seguranca.png);
+color: black;
+font-size: large;
+height: 150%;
+font-weight: bolder;
+
+}
+
+#section-4 ul{
+    display: flexbox;
+    left: 1px;
+    margin-bottom: -100px
+}
+#section-4 li{
+    font-size: 15px;
+    
+}
+#informacao{
+    color: orange;
+}
+
+#section-5{
+background-image: url(./img/dev-web.webp);
+color: orange;
+font-size: large;
+font-weight: bolder
+
+
+}
+.anuncio{
+    display: block;
+}
+
+}
+
+@media (max-width: 1440px) and (max-width: 2560px) {
+  /* Estilos específicos para monitores de 1440p */
+ body{
+  overflow-x: hidden;  
+ }
+ .texto_imagem{
+    display: inline-flex;
+    position: relative;
+    margin-left: 205px;
+     
+
+ }
+
+ .imgem_descricao p{
+    top: 600px;
+    left: 250px;
+ }
+ .contrato{
+    top:90px;
+    padding: 12px 5px 10px 12px;
+    background-color: blanchedalmond;
+    border: solid;
+    border-top-right-radius: 15px;
+     width: 150px;
+     height: 40px;
+ }
+ .zap{
+    display: none;
+ }
+}
